@@ -10,15 +10,16 @@
 //   )
 // }
 
-// import React from 'react';
-import ButtonCounter from "../ButtonCounter";
 
 const App = () => {
-  return (
-    <div className="app">
-      <ButtonCounter />
-    </div>
-  );
+    const [count, setCount] = useState(0);
+  
+    return (
+      <div>
+        <p>Button clicked {count} times</p>
+        <button onClick={() => setCount(count + 1)}>Click me</button>
+      </div>
+    );
 }
 
 export default App;
