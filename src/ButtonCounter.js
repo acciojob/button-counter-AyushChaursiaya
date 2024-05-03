@@ -5,8 +5,8 @@ function ButtonCounter() {
 
   return (
     <div>
-      <button onClick={() => setCount(count + 1)}>Click me</button>
       <p>Button clicked {count} times</p>
+      <button onClick={() => setCount(count + 1)}>Click me</button>
     </div>
   );
 }
