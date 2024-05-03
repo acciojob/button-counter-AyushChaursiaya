@@ -10,12 +10,12 @@
 //   )
 // }
 
-import React from 'react';
+// import React from 'react';
 import ButtonCounter from './ButtonCounter';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
+    <div className="app">
       <ButtonCounter />
     </div>
   );
